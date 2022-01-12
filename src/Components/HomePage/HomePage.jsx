@@ -1,0 +1,26 @@
+import homepage from '../../Images/AudreySchmidtHOMEPAGE.jpg';
+
+const HomePage = (props) => {
+    return ( 
+        <div className="row">
+            <div className="col-5">
+                <h2 className = "page-header-name-home">AUDREY SCHMIDT</h2>
+                <p className = "about-me-bold"> <br></br>From helping patients as a pharmacist...<br></br> to helping them as a developer.<br></br></p>
+                <p className = "about-me-bold"><br></br>Click below to learn more about me.</p>
+                <br></br>
+                <p className = "center">
+                    <button className = "button"><a href="#about-me" className = "button-text">ABOUT ME</a></button>
+                    <button className = "button"><a href="#contact" className = "button-text">CONTACT ME</a></button>
+                </p>
+            </div>
+                
+            <div className="col-7">
+                <img src={homepage} alt="Audrey Schmidt Headshot 2020" style={{'height':'690px', 'width':'520px'}}/>
+                <p className = "name-plate">Audrey Schmidt, PharmD <br></br> Student at DevCodeCamp </p>
+            </div>
+        </div>
+
+     );
+}
+ 
+export default HomePage;
