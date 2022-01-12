@@ -21,7 +21,7 @@ const AboutMe = (props) => {
             <br></br>
             <p className = "about-me-normal">
                 By working together I believe we can improve a countless number of lives and make technology better every day.
-                I hope that you find that I will be a useful assett to any team I am placed on.
+                I hope that you find that I will be a useful asset to any team I am placed on.
                 Thank you for stopping by!
             </p>
             
