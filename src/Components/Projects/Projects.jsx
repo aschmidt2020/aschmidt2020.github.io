@@ -3,6 +3,17 @@ import individual from '../../Images/INDIVPROJilya-pavlov-OqtafYT5kTw-unsplash.j
 import capstone from '../../Images/CAPSTONEfarzad-nazifi-p-xSl33Wxyc-unsplash.jpg';
 
 const Projects = (props) => {
+
+    function handleClickGroup(event) {
+        event.preventDefault();
+        props.toggleGroupVisible()
+    }
+
+    function handleClickIndiv(event) {
+        event.preventDefault();
+        props.toggleIndividualVisible()
+    }
+
     return (
         <div className = "container-fluid project-page" id = "projects">
             <br></br><br></br>
@@ -30,7 +41,7 @@ const Projects = (props) => {
                         <img src ={group} alt = "group learning and project work" className = "project-picture-size img-responsive center-block" />
                         <h2 className = "about-me-bold-left"> Group Projects</h2>
                         <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p className = "view-proj-link"><a href = "#group" className = "view-proj-link">view <i class="bi bi-arrow-right"></i></a></p>   
+                        <p className = "view-proj-link"><button onClick={handleClickGroup} href = "#group" className = "view-proj-link">view <i class="bi bi-arrow-right"></i></button></p>   
                     </div>
                 </div>
 
@@ -41,7 +52,7 @@ const Projects = (props) => {
                         <img src ={individual} alt = "code" className = "project-picture-size img-responsive center-block" />
                         <h2 className = "about-me-bold-left"> Individual Projects</h2>
                         <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p className = "view-proj-link"><a href = "#individual" className = "view-proj-link">view <i class="bi bi-arrow-right"></i></a></p>   
+                        <p className = "view-proj-link"><button onClick={handleClickIndiv} href = "#individual" className = "view-proj-link">view <i class="bi bi-arrow-right"></i></button></p>   
                     </div>
                 </div>
             </div>
