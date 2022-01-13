@@ -3,6 +3,7 @@ import capstone from '../../Images/CAPSTONEfarzad-nazifi-p-xSl33Wxyc-unsplash.jp
 
 const ProjectCapstone = (props) => {
     return (
+        <div class = "container-fluid" id = "capstone">
         <div className="row">
         <div className="col-5">
             <h2 className = "page-header-name-cv">CAPSTONE</h2>
@@ -24,6 +25,7 @@ const ProjectCapstone = (props) => {
             <br></br><br></br><br></br>
             <p className = "name-plate"> <br></br></p>
         </div>
+      </div>
       </div>
     );
 }

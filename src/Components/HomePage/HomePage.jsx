@@ -2,6 +2,7 @@ import homepage from '../../Images/AudreySchmidtHOMEPAGE.jpg';
 
 const HomePage = (props) => {
     return ( 
+        <div className= "container-fluid" id="homepage">
         <div className="row">
             <div className="col-5">
                 <h2 className = "page-header-name-home">AUDREY SCHMIDT</h2>
@@ -15,9 +16,10 @@ const HomePage = (props) => {
             </div>
                 
             <div className="col-7">
-                <img src={homepage} alt="Audrey Schmidt Headshot 2020" style={{'height':'690px', 'width':'520px'}}/>
+                <img src={homepage} alt="Audrey Schmidt Headshot 2020" className= "picture-home-size img-responsive center-block"/>
                 <p className = "name-plate">Audrey Schmidt, PharmD <br></br> Student at DevCodeCamp </p>
             </div>
+        </div>
         </div>
 
      );

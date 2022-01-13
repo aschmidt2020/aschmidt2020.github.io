@@ -1,7 +1,8 @@
 import contact from  '../../Images/AudreySchmidtCONTACT.jpg'
 const ContactMe = (props) => {
     return (
-        <div className="row">
+        <div className = "container-fluid" id = "contact">
+       <div className="row">
                 <div className="col-5">
                     <h2 className = "page-header-name-contact">CONTACT ME</h2>
 
@@ -28,6 +29,7 @@ const ContactMe = (props) => {
                     <br></br>
                     <p className = "name-plate">Audrey Schmidt, PharmD <br></br> Student at DevCodeCamp </p>
                 </div>
+            </div>
             </div>
 
     );

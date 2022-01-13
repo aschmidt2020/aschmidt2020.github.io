@@ -4,8 +4,7 @@ import capstone from '../../Images/CAPSTONEfarzad-nazifi-p-xSl33Wxyc-unsplash.jp
 
 const Projects = (props) => {
     return (
-        <div>
-
+        <div className = "container-fluid project-page" id = "projects">
         <div className = "row"> 
                 <h2 className = "page-header-name-projects">PROJECTS</h2>
                 <p className = "about-me-bold">Projects completed during time at DevCodeCamp</p>

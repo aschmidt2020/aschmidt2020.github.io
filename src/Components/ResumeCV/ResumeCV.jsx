@@ -1,7 +1,8 @@
 import resume from '../../Images/RESUMEmarkus-winkler-7iSEHWsxPLw-unsplash.jpg'
 const ResumeCV = (props) => {
     return (
-        <div className="row">
+        <div class = "container-fluid" id= "resume">
+      <div className="row">
         <div className="col-5">
             <h2 className = "page-header-name-cv">CURRICULUM VITAE</h2>
             <br></br>
@@ -22,10 +23,11 @@ const ResumeCV = (props) => {
         </div>
             
         <div className="col-7">
-            <img src ={resume} alt = "creating a resume" className = "main-picture-size img-responsive center-block" style={{'height':'600px','width':'900px'}}/>
+            <img src ={resume} alt = "creating a resume" className = "main-picture-size img-responsive center-block"/>
             <br></br><br></br><br></br>
             <p className = "name-plate"> <br></br> </p>
         </div>
+      </div>
       </div>
     );
 }
