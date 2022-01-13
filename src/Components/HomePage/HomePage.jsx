@@ -15,9 +15,9 @@ const HomePage = (props) => {
                 </p>
             </div>
                 
-            <div className="col-7">
-                <img src={homepage} alt="Audrey Schmidt Headshot 2020" className= "picture-home-size img-responsive center-block"/>
-                <p className = "name-plate">Audrey Schmidt, PharmD <br></br> Student at DevCodeCamp </p>
+            <div className="col-7 text-center">
+                <img src={homepage} alt="Audrey Schmidt Headshot 2020" className= "picture-home-size img-responsive"/>
+                <h1 className = "name-plate text-center">Audrey Schmidt, PharmD <br></br> Student at DevCodeCamp </h1>
             </div>
         </div>
         </div>
