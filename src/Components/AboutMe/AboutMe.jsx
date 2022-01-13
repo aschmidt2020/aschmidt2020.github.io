@@ -33,7 +33,7 @@ const AboutMe = (props) => {
 
             </div>
                 
-            <div className="col-7">
+            <div className="col-7 text-center">
                 <img src={computerstethoscope} alt = "computer and stethoscope medical technology picture" className= "center-block main-picture-size img-responsive"/>
                 <p className = "name-plate"></p>
             </div>
