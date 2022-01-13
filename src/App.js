@@ -10,31 +10,16 @@ import ProjectGroup from "./Components/ProjectGroup/ProjectGroup";
 import ProjectIndividual from "./Components/ProjectIndividual/ProjectIndividual";
 import React, { useState } from 'react';
 
-
 function App() {
-  const [groupVisible, setGroupVisible] = useState(false);
-  const [individualVisible, setIndividualVisible] = useState(false);
-
-  function toggleGroupVisible(){
-    setGroupVisible(true)
-  }
-
-  function toggleIndividualVisible(){
-    setIndividualVisible(true)
-  }
-
-
+ 
   return (
     <div>
-      <NavBar toggleGroupVisible={toggleGroupVisible} toggleGroupVisible={toggleIndividualVisible}/>
-      <HomePage />
-      <AboutMe />
-      <ResumeCV />
-      <Projects toggleGroupVisible={toggleGroupVisible} toggleGroupVisible={toggleIndividualVisible}/>
-      <ProjectCapstone />
-      {groupVisible && <ProjectGroup />}
-      {individualVisible && <ProjectIndividual />}
-      <ContactMe />
+      <NavBar />
+      <section id='section-1'><HomePage /></section>
+      <section id='section-2'><AboutMe /></section>
+      <section id='section-3'><ResumeCV /></section>
+      <section id='section-4'><Projects /> <ProjectCapstone /></section>
+      <section id='section-5'><ContactMe /></section>
     </div>
   );
 }

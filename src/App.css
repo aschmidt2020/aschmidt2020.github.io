@@ -21,10 +21,9 @@ body{
 
 
 /* navigation bar settings */
-.navbar-nav > li > a, .navbar-brand {
-    padding-top:5px !important; 
-    padding-bottom:0 !important;
-    height: 10px;}
+.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
+    height: 40px;
+}
 
 a.nav-link:hover {
     color: black !important;
@@ -32,10 +31,14 @@ a.nav-link:hover {
     } 
 
 /** IN PROGRESS */
-.nav-active {
-    text-decoration: underline;
+ul li {
+    list-style: none;
+    display: inline-block;
 }
 
+.is-current {
+    text-decoration: underline;
+}
 
 /* big bold text for page name with adjusted margin-tops to center on page */    
 .page-header-name-home {
