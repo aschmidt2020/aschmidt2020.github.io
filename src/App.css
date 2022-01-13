@@ -24,9 +24,9 @@ body{
 .navbar-nav > li > a, .navbar-brand {
     padding-top:5px !important; 
     padding-bottom:0 !important;
-    height: 5px;}
+    height: 10px;}
 
-.navbar {min-height:15px !important;}
+.navbar {min-height:20px !important;}
 
 .nav-bar-color {
     background-color: #efeff3;}
