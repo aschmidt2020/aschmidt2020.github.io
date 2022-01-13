@@ -1,4 +1,9 @@
 const NavBar = (props) => {
+
+    const navLinkStyle = {
+        marginTop: '-1em',
+    }
+    
     return ( 
         <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div className="container-fluid">
@@ -8,16 +13,16 @@ const NavBar = (props) => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav" >
-                <li className="nav-item" style={{'marginTop':'-1em'}}>
-                <a className="nav-link" aria-current="page" href="#homepage">HOME</a>
+                <li className="nav-item" style={navLinkStyle}>
+                <a className="nav-link active" aria-current="page" href="#homepage">HOME</a>
                 </li>
-                <li className="nav-item" style={{'marginTop':'-1em'}}>
+                <li className="nav-item" style={navLinkStyle}>
                 <a className="nav-link" href="#about-me">ABOUT ME</a>
                 </li>
-                <li className="nav-item" style={{'marginTop':'-1em'}}>
+                <li className="nav-item" style={navLinkStyle}>
                 <a className="nav-link" href="#resume">RESUME/CV</a>
                 </li>
-                <li className="nav-item dropdown" style={{'marginTop':'-1em'}}>
+                <li className="nav-item dropdown" style={navLinkStyle}>
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     PROJECTS
                 </a>
@@ -28,7 +33,7 @@ const NavBar = (props) => {
                     <li><a className="dropdown-item" href="#individual">Individual</a></li>
                 </ul>
                 </li>
-                <li className="nav-item" style={{'marginTop':'-1em'}}>
+                <li className="nav-item" style={navLinkStyle}>
                 <a className="nav-link" href="#contact">CONTACT ME</a>
                 </li>
             </ul>
