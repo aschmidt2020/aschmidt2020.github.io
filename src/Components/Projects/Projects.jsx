@@ -20,7 +20,7 @@ const Projects = (props) => {
                         <img src ={capstone} alt = "dual monitor computer setup" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}} />
                         <h2 className = "about-me-bold-left">Capstone Project Name</h2>
                         <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <p className = "view-proj-link"><a href = "#capstone" className = "view-proj-link">view <i class="bi bi-arrow-right"></i></a></p>    
+                        <p className = "view-proj-link"><a href = "#capstone" className = "view-proj-link">view <i className="bi bi-arrow-right"></i></a></p>    
                     </div>
                 </div>
 
@@ -36,26 +36,26 @@ const Projects = (props) => {
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                             <img src ={group} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i class="bi bi-arrow-right"></i></button>
+                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>
                             </div>
                             </div>
                             <div className="carousel-item">
                             <img src ={group} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i class="bi bi-arrow-right"></i></button>
+                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>
                             </div>
                             </div>
                             <div className="carousel-item">
                             <img src ={group} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-none d-md-block">
                                 <h5>Third slide label</h5>
                                 <p>Some representative placeholder content for the first slide. </p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i class="bi bi-arrow-right"></i></button>  
+                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>  
                             </div>
                             </div>
                         </div>
@@ -89,26 +89,26 @@ const Projects = (props) => {
                         <div className="carousel-inner">
                             <div className="carousel-item active">
                             <img src ={individual} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i class="bi bi-arrow-right"></i></button>
+                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>
                             </div>
                             </div>
                             <div className="carousel-item">
                             <img src ={individual} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i class="bi bi-arrow-right"></i></button>
+                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>
                             </div>
                             </div>
                             <div className="carousel-item">
                             <img src ={individual} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div class="carousel-caption d-none d-md-block">
+                            <div className="carousel-caption d-none d-md-block">
                                 <h5>Third slide label</h5>
                                 <p>Some representative placeholder content for the first slide. </p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i class="bi bi-arrow-right"></i></button>  
+                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>  
                             </div>
                             </div>
                         </div>

@@ -14,7 +14,7 @@ const ProjectCapstone = (props) => {
                 <br></br><br></br></p>
             <p className = "center">
                 <button className = "button"><a href="#contact" className = "button-text">CONTACT ME</a></button>
-                <button className = "view-capstone-link">view code <i class="bi bi-arrow-right"></i></button>
+                <button className = "view-capstone-link">view code <i className="bi bi-arrow-right"></i></button>
             </p>
             
             <br></br><br></br><br></br>
