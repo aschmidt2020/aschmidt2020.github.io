@@ -1,4 +1,4 @@
-import computerstethoscope from '../../Images/COMPUTERSTETHOnational-cancer-institute-NFvdKIhxYlU-unsplash.jpg'
+import computerstethoscope from '../../Images/COMPUTERSTETHOnational-cancer-institute-unsplash.jpg'
 
 const AboutMe = (props) => {
     return (
