@@ -18,6 +18,7 @@ const Projects = (props) => {
                     <div className="item-end-left">
                         <h1 className = "projects-bold">CAPSTONE</h1>
                         <img src ={capstone} alt = "dual monitor computer setup" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}} />
+                        <br></br>
                         <h2 className = "about-me-bold-left">Capstone Project Name</h2>
                         <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p className = "view-proj-link"><a href = "#capstone" className = "view-proj-link">view <i className="bi bi-arrow-right"></i></a></p>    
@@ -72,7 +73,7 @@ const Projects = (props) => {
                         
                         <h2 className = "about-me-bold-left"> Group Projects</h2>
                         <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <br></br>
+                        <br></br><br></br>
                     </div>
                 </div>
 
@@ -124,7 +125,7 @@ const Projects = (props) => {
                         
                         <h2 className = "about-me-bold-left"> Individual Projects</h2>
                         <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <br></br>
+                        <br></br><br></br>
                     </div>
                 </div>
             </div>

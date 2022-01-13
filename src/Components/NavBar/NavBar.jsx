@@ -22,8 +22,8 @@ const NavBar = (props) => {
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style={{'marginTop':'0.5em'}}>
                             <li><a className="dropdown-item" href="#projects">Home</a></li>
                             <li><a className="dropdown-item" href="#capstone">Capstone</a></li>
-                            <li><a className="dropdown-item" href="#group">Group</a></li>
-                            <li><a className="dropdown-item" href="#individual">Individual</a></li>
+                            {/* <li><a className="dropdown-item" href="#group">Group</a></li>
+                            <li><a className="dropdown-item" href="#individual">Individual</a></li> */}
                         </ul>
                     </li>
                     <li className="nav-item"><a className="nav-link" aria-current="page" href="#contact">CONTACT ME</a></li>
