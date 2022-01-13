@@ -119,7 +119,7 @@ body{
     color: #3E3D3D;
     text-align: center;
     justify-content: center;
-    margin-top: 5% }
+     }
 
 .page-header-name-contact {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -255,8 +255,7 @@ body{
 
 .project-picture-size{
     width: 391px;
-    height: 261px;
-    margin-left: 15%;}
+    height: 261px;}
 
 .project-picture-capstone{
     width: 391px;
@@ -303,11 +302,31 @@ body{
     width: 60%;
     margin-left: 20%;}
 
-/** IN PROGRESS */
-.project-box {
+/*project boxes outlines*/ 
+.item-end-left { 
+    padding: 20px;
+    margin-left: 80px;
+    background-color: #F0F0F4;
+    border-color: #707070;
+    border-radius: 32px;
+    text-align: center;
+    }
+
+.item-end-right { 
+    padding: 20px;
+    margin-right: 80px;
+    background-color: #F0F0F4;
+    border-color: #707070;
+    border-radius: 32px;
+    text-align: center;
+    }
+
+.item-middle { 
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     background-color: #F0F0F4;
     border-color: #707070;
     border-radius: 32px; 
-    padding: 0%;
-    margin: 0%;
+    text-align: center;
     }
