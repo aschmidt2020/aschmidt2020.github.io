@@ -1,7 +1,7 @@
 import resume from '../../Images/RESUMEmarkus-winkler-7iSEHWsxPLw-unsplash.jpg'
 const ResumeCV = (props) => {
     return (
-        <div class = "container-fluid" id= "resume">
+        <div className = "container-fluid" id= "resume">
       <div className="row">
         <div className="col-5">
             <h2 className = "page-header-name-cv">CURRICULUM VITAE</h2>

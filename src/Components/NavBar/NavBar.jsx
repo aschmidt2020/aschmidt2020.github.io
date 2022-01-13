@@ -9,7 +9,7 @@ const NavBar = (props) => {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
                 <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#homepage">HOME</a>
+                <a className="nav-link" aria-current="page" href="#homepage">HOME</a>
                 </li>
                 <li className="nav-item">
                 <a className="nav-link" href="#about-me">ABOUT ME</a>
