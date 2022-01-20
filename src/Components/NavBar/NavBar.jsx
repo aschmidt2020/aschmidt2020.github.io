@@ -10,9 +10,9 @@ const NavBar = (props) => {
             <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div className="collapse navbar-collapse" id="navbarNavDropdown" style={{'paddingTop':'0px','paddingBottom':'0px'}}>
+            <div className="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul className="navbar-nav" style={{'paddingTop':'0px','paddingBottom':'0px'}}>
             <Scrollspy items={ ['section-1', 'section-2', 'section-3', 'section-4', 'section-5'] } currentClassName="is-current">
-                <ul className="navbar-nav" style={{'paddingTop':'0px','paddingBottom':'0px'}}>
                     <li className="nav-item"><a className="nav-link" aria-current="page" href="#homepage">HOME</a></li>
                     <li className="nav-item"><a className="nav-link" aria-current="page" href="#about-me">ABOUT ME</a></li>
                     <li className="nav-item"><a className="nav-link" aria-current="page" href="#resume">RESUME/CV</a></li>
@@ -27,8 +27,8 @@ const NavBar = (props) => {
                         </ul>
                     </li>
                     <li className="nav-item"><a className="nav-link" aria-current="page" href="#contact">CONTACT ME</a></li>
-                </ul>
             </Scrollspy>
+            </ul>
             </div>
         </div>
         </nav>
