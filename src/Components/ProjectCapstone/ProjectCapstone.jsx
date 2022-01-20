@@ -7,7 +7,7 @@ const ProjectCapstone = (props) => {
         <div className="row">
         <div className="col-5 text-center">
             <h2 className = "page-header-name-cv">CAPSTONE</h2>
-            <img src = {capstone} alt = "dual monitor computer setup" className = "project-picture-capstone img-responsive center-block" />
+            <img src = {capstone} alt = "dual monitor computer setup" className = "project-picture-capstone img-fluid center-block" />
             <br></br><br></br>
             <p className = "capstone-project-name">Capstone Project Name</p>
             <p className = "capstone-project-desc" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -22,7 +22,7 @@ const ProjectCapstone = (props) => {
         </div>
             
         <div className="col-7 text-center">
-            <h1><img src = {capstonelarge} alt = "try it out demo" className = "main-picture-size img-responsive center-block" /></h1>
+            <h1><img src = {capstonelarge} alt = "try it out demo" className = "main-picture-size img-fluid center-block" /></h1>
             <p className = "name-plate"></p>
         </div>
       </div>

@@ -16,7 +16,7 @@ const HomePage = (props) => {
             </div>
                 
             <div className="col-7 text-center">
-                <img src={homepage} alt="Audrey Schmidt Headshot 2020" className= "picture-home-size img-responsive"/>
+                <img src={homepage} alt="Audrey Schmidt Headshot 2020" className= "picture-home-size img-fluid"/>
                 <h1 className = "name-plate text-center">Audrey Schmidt, PharmD <br></br> Student at DevCodeCamp </h1>
             </div>
         </div>

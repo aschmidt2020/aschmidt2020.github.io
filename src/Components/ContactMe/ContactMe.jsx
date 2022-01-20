@@ -25,7 +25,7 @@ const ContactMe = (props) => {
                 </div>
                     
                 <div className="col-7 text-center">
-                    <h2><img src={contact} alt = "Audrey Schmidt Headshot 2020" className = "picture-contact-size img-responsive center-block" /></h2>
+                    <h2><img src={contact} alt = "Audrey Schmidt Headshot 2020" className = "picture-contact-size img-fluid center-block" /></h2>
                     <p className = "name-plate">Audrey Schmidt, PharmD <br></br> Student at DevCodeCamp </p>
                 </div>
             </div>

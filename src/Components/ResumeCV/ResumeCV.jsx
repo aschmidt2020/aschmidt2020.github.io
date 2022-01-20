@@ -23,7 +23,7 @@ const ResumeCV = (props) => {
                 </div>
                     
                 <div className="col-7 text-center">
-                    <img src ={resume} alt = "creating a resume" className = "main-picture-size img-responsive center-block"/>
+                    <img src ={resume} alt = "creating a resume" className = "main-picture-size img-responsive center-block img-fluid"/>
                     <p className = "name-plate"> </p>
                     <br></br><br></br>
                     <br></br><br></br>

@@ -3,16 +3,16 @@ import Scrollspy from 'react-scrollspy'
 const NavBar = (props) => {
     
     return ( 
-        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div className="container-fluid">
-            <a className="navbar-brand" href="#" >AUDREY SCHMIDT</a>
+        <nav className="navbar navbar-expand-md navbar-light bg-light sticky-top py-0" style={{'paddingTop':'0px','paddingBottom':'0px'}}>
+        <div className="container-fluid" style={{'paddingTop':'0px','paddingBottom':'0px'}}>
+            <a className="navbar-brand" href="#" style={{'paddingTop':'0px','paddingBottom':'0px', 'marginTop':'-12px'}}>AUDREY SCHMIDT</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="navbarNavDropdown">
 
-            <ul className="navbar-nav">
-                <Scrollspy items={ ['section-1', 'section-2', 'section-3', 'section-4', 'section-5'] } currentClassName="is-current">
+            <div className="collapse navbar-collapse" id="navbarNavDropdown" style={{'paddingTop':'0px','paddingBottom':'0px'}}>
+            <Scrollspy items={ ['section-1', 'section-2', 'section-3', 'section-4', 'section-5'] } currentClassName="is-current">
+                <ul className="navbar-nav" style={{'paddingTop':'0px','paddingBottom':'0px'}}>
                     <li className="nav-item"><a className="nav-link" aria-current="page" href="#homepage">HOME</a></li>
                     <li className="nav-item"><a className="nav-link" aria-current="page" href="#about-me">ABOUT ME</a></li>
                     <li className="nav-item"><a className="nav-link" aria-current="page" href="#resume">RESUME/CV</a></li>
@@ -27,8 +27,8 @@ const NavBar = (props) => {
                         </ul>
                     </li>
                     <li className="nav-item"><a className="nav-link" aria-current="page" href="#contact">CONTACT ME</a></li>
-                </Scrollspy>
-            </ul>
+                </ul>
+            </Scrollspy>
             </div>
         </div>
         </nav>

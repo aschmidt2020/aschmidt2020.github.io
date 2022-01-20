@@ -17,7 +17,7 @@ const Projects = (props) => {
                 <div className="col-4 project-box">
                     <div className="item-end-left">
                         <h1 className = "projects-bold">CAPSTONE</h1>
-                        <img src ={capstone} alt = "dual monitor computer setup" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}} />
+                        <img src ={capstone} alt = "dual monitor computer setup" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}} />
                         <br></br>
                         <h2 className = "about-me-bold-left">Capstone Project Name</h2>
                         <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -36,7 +36,7 @@ const Projects = (props) => {
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                            <img src ={group} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <img src ={group} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
@@ -44,7 +44,7 @@ const Projects = (props) => {
                             </div>
                             </div>
                             <div className="carousel-item">
-                            <img src ={group} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <img src ={group} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
@@ -52,7 +52,7 @@ const Projects = (props) => {
                             </div>
                             </div>
                             <div className="carousel-item">
-                            <img src ={group} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <img src ={group} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Third slide label</h5>
                                 <p>Some representative placeholder content for the first slide. </p>
@@ -89,7 +89,7 @@ const Projects = (props) => {
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                            <img src ={individual} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <img src ={individual} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>First slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
@@ -97,7 +97,7 @@ const Projects = (props) => {
                             </div>
                             </div>
                             <div className="carousel-item">
-                            <img src ={individual} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <img src ={individual} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Second slide label</h5>
                                 <p>Some representative placeholder content for the first slide.</p>
@@ -105,7 +105,7 @@ const Projects = (props) => {
                             </div>
                             </div>
                             <div className="carousel-item">
-                            <img src ={individual} alt = "group learning and project work" className = "img-responsive d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <img src ={individual} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Third slide label</h5>
                                 <p>Some representative placeholder content for the first slide. </p>
