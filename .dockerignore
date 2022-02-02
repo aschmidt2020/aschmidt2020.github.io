@@ -1,0 +1,8 @@
+#dockerfiles
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+#app files
+node_modules
+npm-debug.log

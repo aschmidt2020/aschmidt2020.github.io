@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  portfolio:
+    container_name: audrey-schmidt-portfolio
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '/app/node_modules'
+      - './:/app'
+    ports:
+      - "80:8080"
