@@ -32,4 +32,4 @@ jobs:
               environment_name: Audreyschmidtportfolio-env
               version_label: ${{ env.date-stamp }}
               region: us-east-1
-              deployment_package: docker-compose.yml
+              deployment_package: deploy.zip
