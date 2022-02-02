@@ -3,11 +3,7 @@ version: '3.9'
 services:
   portfolio:
     container_name: audrey-schmidt-portfolio
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - '/app/node_modules'
-      - './:/app'
+    image: audreyyyschmidt/audrey-schmidt-portfolio-prod:latest
     ports:
-      - "80:8080"
+      - "80:8080" #for AWS
+      - "8086:80" #for local machine to run
