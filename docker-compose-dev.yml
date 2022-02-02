@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  portfolio-dev:
+    container_name: audrey-schmidt-portfolio-dev
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - '/app/node_modules'
+      - './:/app'
+    ports:
+      - "3002:3000"
+  
+  # portfolio-test:
+  #   container_name: audrey-schmidt-portfolio-dev
+  #   image: audrey-schmidt-portfolio-dev_portfolio-dev
+  #   volumes:
+  #     - '/app/node_modules'
+  #     - './:/app'
+  #   command: [ "npm", "run", "test"]
