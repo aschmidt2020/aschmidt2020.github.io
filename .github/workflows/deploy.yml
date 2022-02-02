@@ -3,7 +3,7 @@ name: Docker Deploy Image CI
 on:
   release:
     types: [published]
-    
+
   workflow_dispatch:
 
 env:
@@ -32,4 +32,4 @@ jobs:
               environment_name: Audreyschmidtportfolio-env
               version_label: ${{ env.date-stamp }}
               region: us-east-1
-              deployment_package: audreyyyschmidt/audrey-schmidt-porfolio-prod:latest
+              deployment_package: audreyyyschmidt/audrey-schmidt-portfolio-prod:latest
