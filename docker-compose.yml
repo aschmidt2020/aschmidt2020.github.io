@@ -5,5 +5,6 @@ services:
     container_name: audrey-schmidt-portfolio
     image: audreyyyschmidt/audrey-schmidt-portfolio-prod:latest
     ports:
+      - "80:80"
       - "80:8080" #for AWS
       - "8086:80" #for local machine to run
