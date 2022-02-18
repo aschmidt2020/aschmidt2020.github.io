@@ -1,6 +1,7 @@
 import group from '../../Images/GROUPPROJannie-spratt-hCb3lIB8L8E-unsplash.jpg';
 import individual from '../../Images/INDIVPROJilya-pavlov-OqtafYT5kTw-unsplash.jpg';
 import capstone from '../../Images/CAPSTONEfarzad-nazifi-p-xSl33Wxyc-unsplash.jpg';
+import assignmentDashboard from '../../Images/assignmentdashboard-screenshot.png'
 
 const Projects = (props) => {
 
@@ -17,10 +18,10 @@ const Projects = (props) => {
                 <div className="col-4 project-box">
                     <div className="item-end-left">
                         <h1 className = "projects-bold">CAPSTONE</h1>
-                        <img src ={capstone} alt = "dual monitor computer setup" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}} />
+                        <img src ={assignmentDashboard} alt = "dual monitor computer setup" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}} />
                         <br></br>
-                        <h2 className = "about-me-bold-left">Capstone Project Name</h2>
-                        <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h2 className = "about-me-bold-left">Assignment Dashboard</h2>
+                        <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Full-stack application to make tracking assignments for educators and students almost too easy!</p>
                         <p className = "view-proj-link"><a href = "#capstone" className = "view-proj-link">view <i className="bi bi-arrow-right"></i></a></p>    
                     </div>
                 </div>
@@ -38,25 +39,25 @@ const Projects = (props) => {
                             <div className="carousel-item active">
                             <img src ={group} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>
+                                <h5>YouTube Clone</h5>
+                                <p>Full-stack YouTube clone using Google YouTube API.</p>
+                                <a href = "https://github.com/aschmidt2020/YT-clone-react-frontend" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>
                             </div>
                             </div>
                             <div className="carousel-item">
                             <img src ={group} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>
+                                <h5>Trash Collector</h5>
+                                <p>Full-stack application built with Django MVT. Includes Google Maps API and PayPal API.</p>
+                                <a href = "https://github.com/TPavZ/dCC_Trash_Collector_Project_Audrey_Tyler" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>
                             </div>
                             </div>
                             <div className="carousel-item">
                             <img src ={group} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the first slide. </p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>  
+                                <h5>Most Wanted</h5>
+                                <p>Practice using JavaScript objects and sorting of arrays. Includes branches for simple alert/confirmation based navigation along with frontend version.</p>
+                                <a href = "https://github.com/Joshua-Dela-Pena/Most-Wanted" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>  
                             </div>
                             </div>
                         </div>
@@ -72,8 +73,8 @@ const Projects = (props) => {
 
                         
                         <h2 className = "about-me-bold-left"> Group Projects</h2>
-                        <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <br></br><br></br>
+                        <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Full-stack group projects (pairs) completed while at DevCodeCamp.</p>
+                        <br></br><br></br><br></br>
                     </div>
                 </div>
 
@@ -91,25 +92,25 @@ const Projects = (props) => {
                             <div className="carousel-item active">
                             <img src ={individual} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>
+                                <h5>Flashcards App</h5>
+                                <p>Full-stack flashcard application where users can create collections of flashcards and practice in their freetime. *in progress</p>
+                                <a href = "https://github.com/aschmidt2020/flashcards_frontend_REACT" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>
                             </div>
                             </div>
                             <div className="carousel-item">
                             <img src ={individual} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>
+                                <h5>Social Feed Front-End</h5>
+                                <p>Front-end React.js application to display user posts, comments and replies.</p>
+                                <a href = "https://github.com/aschmidt2020/social-feed-react" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>
                             </div>
                             </div>
                             <div className="carousel-item">
                             <img src ={individual} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the first slide. </p>
-                                <button href = "#" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></button>  
+                                <h5>Music Library</h5>
+                                <p>Full-stack music application to keep track of songs. Allows you to search, sort, and filter through a database of music. </p>
+                                <a href = "https://github.com/aschmidt2020/music-libary-react" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>  
                             </div>
                             </div>
                         </div>
@@ -124,8 +125,8 @@ const Projects = (props) => {
                         </div>
                         
                         <h2 className = "about-me-bold-left"> Individual Projects</h2>
-                        <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <br></br><br></br>
+                        <p className = "about-me-normal" style={{'marginTop':'-1em'}}>Sample individual projects completed while at DevCodeCamp.</p>
+                        <br></br><br></br><br></br>
                     </div>
                 </div>
             </div>

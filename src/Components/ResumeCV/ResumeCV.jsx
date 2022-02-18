@@ -7,7 +7,7 @@ const ResumeCV = (props) => {
                     <h2 className = "page-header-name-cv">RESUME</h2>
                     <br></br>
                     <p className = "about-me-bold-left">EDUCATION</p>
-                    <p className = "about-me-normal" style={{'marginTop':'-1em'}}> - DevCodeCamp Graduate Full-Stack Development Candidate February 2022<br></br> - Medical College of Wisconsin Doctor of Pharmacy May 2020
+                    <p className = "about-me-normal" style={{'marginTop':'-1em'}}> - DevCodeCamp Graduate Full-Stack Development February 2022<br></br> - Medical College of Wisconsin Doctor of Pharmacy May 2020
                         <br></br><br></br></p>
                     <p className = "about-me-bold-left">EXPERIENCE</p>
                     <p className = "about-me-normal" style={{'marginTop':'-1em'}}> - Over 10 coding projects completed covering front-end and back-end <br></br> - Over 1 year experience in both hospital and retail setings

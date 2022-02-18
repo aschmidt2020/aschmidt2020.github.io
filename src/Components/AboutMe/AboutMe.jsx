@@ -7,7 +7,7 @@ const AboutMe = (props) => {
             <div className="col-5">
                 <h2 className = "page-header-name-about-me">ABOUT ME</h2>
                 <p className = "about-me-normal">
-                    Welcome to my page! My name is Audrey Schmidt and I am currently studied full-stack development at DevCodeCamp.
+                    Welcome to my page! My name is Audrey Schmidt and I am currently a full-stack developer who graduated from DevCodeCamp February 2022.
                     My prior experiences include working in hospital pharmacy and retail pharmacy.
                     While in these positions, I learned how to work as a team towards a common goal and think on the spot.
                     After almost two years in pharmacy, I decided I wanted to help patients in a different way.

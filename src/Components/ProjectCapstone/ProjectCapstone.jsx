@@ -1,5 +1,6 @@
 import capstonelarge from '../../Images/CAPSTONELARGEbrett-jordan--dChkgNLmp4-unsplash.jpg';
 import capstone from '../../Images/CAPSTONEfarzad-nazifi-p-xSl33Wxyc-unsplash.jpg';
+import assignmentDashboard from '../../Images/assignmentdashboard-screenshot.png'
 
 const ProjectCapstone = (props) => {
     return (
@@ -7,14 +8,14 @@ const ProjectCapstone = (props) => {
         <div className="row">
         <div className="col-5 text-center">
             <h2 className = "page-header-name-cv">CAPSTONE</h2>
-            <img src = {capstone} alt = "dual monitor computer setup" className = "project-picture-capstone img-fluid center-block" />
+            <img src = {assignmentDashboard} alt = "assignment dashboard landing page" className = "project-picture-capstone img-fluid center-block" />
             <br></br><br></br>
-            <p className = "capstone-project-name">Capstone Project Name</p>
-            <p className = "capstone-project-desc" style={{'marginTop':'-1em'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <p className = "capstone-project-name">Assignment Dashboard</p>
+            <p className = "capstone-project-desc" style={{'marginTop':'-1em'}}>Full-stack application uses Python with Django-REST framework backend and JavaScript with React.js frontend. Easily navigate through courses and their assignments with just a few button clicks. Video demo to come shortly.
                 <br></br><br></br></p>
             <p className = "center">
                 <button className = "button"><a href="#contact" className = "button-text">CONTACT ME</a></button>
-                <button className = "view-capstone-link">view code <i className="bi bi-arrow-right"></i></button>
+                <a className = "view-capstone-link" href="https://github.com/aschmidt2020/assignment-dashboard-frontend" target="_blank">view code <i className="bi bi-arrow-right"></i></a>
             </p>
             
             <br></br><br></br><br></br>
