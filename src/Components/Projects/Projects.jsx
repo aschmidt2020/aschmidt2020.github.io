@@ -2,6 +2,12 @@ import group from '../../Images/GROUPPROJannie-spratt-hCb3lIB8L8E-unsplash.jpg';
 import individual from '../../Images/INDIVPROJilya-pavlov-OqtafYT5kTw-unsplash.jpg';
 import capstone from '../../Images/CAPSTONEfarzad-nazifi-p-xSl33Wxyc-unsplash.jpg';
 import assignmentDashboard from '../../Images/assignmentdashboard-screenshot.png'
+import socialFeed from '../../Images/socialfeed-screenshot.png';
+import flashcards from '../../Images/flashcards-screenshot.png';
+import musicLibrary from '../../Images/musiclibrary-screenshot.png';
+import youtubeClone from '../../Images/youtube-clone-screenshot.png'
+import trashCollector from '../../Images/trashcollector-screenshot.png';
+import mostWanted from '../../Images/mostwanted-screenshot.png'
 
 const Projects = (props) => {
 
@@ -29,7 +35,7 @@ const Projects = (props) => {
                 <div className="col-4 project-box">
                     <div className='item-middle'>
                         <h1 className = "projects-bold">GROUP</h1>
-                        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleIndicators" className="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -37,26 +43,26 @@ const Projects = (props) => {
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                            <img src ={group} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div className="carousel-caption d-none d-md-block">
+                            <img src ={youtubeClone} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <div className="carousel-caption d-none d-md-block" style={{'color':'black', 'backgroundColor':'white'}}>
                                 <h5>YouTube Clone</h5>
                                 <p>Full-stack YouTube clone using Google YouTube API.</p>
                                 <a href = "https://github.com/aschmidt2020/YT-clone-react-frontend" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>
                             </div>
                             </div>
                             <div className="carousel-item">
-                            <img src ={group} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div className="carousel-caption d-none d-md-block">
+                            <img src ={trashCollector} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <div className="carousel-caption d-none d-md-block" style={{'color':'black', 'backgroundColor':'white'}}>
                                 <h5>Trash Collector</h5>
                                 <p>Full-stack application built with Django MVT. Includes Google Maps API and PayPal API.</p>
                                 <a href = "https://github.com/TPavZ/dCC_Trash_Collector_Project_Audrey_Tyler" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>
                             </div>
                             </div>
                             <div className="carousel-item">
-                            <img src ={group} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div className="carousel-caption d-none d-md-block">
+                            <img src ={mostWanted} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <div className="carousel-caption d-none d-md-block" style={{'color':'black', 'backgroundColor':'white'}}>
                                 <h5>Most Wanted</h5>
-                                <p>Practice using JavaScript objects and sorting of arrays. Includes branches for simple alert/confirmation based navigation along with frontend version.</p>
+                                <p>Practice using JavaScript objects and sorting of arrays. Includes branches for frontend version.</p>
                                 <a href = "https://github.com/Joshua-Dela-Pena/Most-Wanted" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>  
                             </div>
                             </div>
@@ -82,7 +88,7 @@ const Projects = (props) => {
                     <div className='item-end-right'>
 
                         <h1 className = "projects-bold">INDIVIDUAL</h1>
-                        <div id="carouselExampleIndicators2" className="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleIndicators2" className="carousel carousel-dark slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -90,24 +96,24 @@ const Projects = (props) => {
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                            <img src ={individual} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div className="carousel-caption d-none d-md-block">
+                            <img src ={flashcards} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <div className="carousel-caption d-none d-md-block" style={{'color':'black', 'backgroundColor':'white'}}>
                                 <h5>Flashcards App</h5>
                                 <p>Full-stack flashcard application where users can create collections of flashcards and practice in their freetime. *in progress</p>
                                 <a href = "https://github.com/aschmidt2020/flashcards_frontend_REACT" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>
                             </div>
                             </div>
                             <div className="carousel-item">
-                            <img src ={individual} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div className="carousel-caption d-none d-md-block">
+                            <img src ={socialFeed} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <div className="carousel-caption d-none d-md-block" style={{'color':'black', 'backgroundColor':'white'}}>
                                 <h5>Social Feed Front-End</h5>
                                 <p>Front-end React.js application to display user posts, comments and replies.</p>
                                 <a href = "https://github.com/aschmidt2020/social-feed-react" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>
                             </div>
                             </div>
                             <div className="carousel-item">
-                            <img src ={individual} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
-                            <div className="carousel-caption d-none d-md-block">
+                            <img src ={musicLibrary} alt = "group learning and project work" className = "img-fluid d-block w-100" style={{'height':'261px', 'width':'391px'}}/>
+                            <div className="carousel-caption d-none d-md-block" style={{'color':'black', 'backgroundColor':'white'}}>
                                 <h5>Music Library</h5>
                                 <p>Full-stack music application to keep track of songs. Allows you to search, sort, and filter through a database of music. </p>
                                 <a href = "https://github.com/aschmidt2020/music-libary-react" target="_blank" className = "view-proj-link btn btn-secondary">view <i className="bi bi-arrow-right"></i></a>  

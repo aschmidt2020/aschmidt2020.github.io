@@ -16,7 +16,7 @@ const ResumeCV = (props) => {
                     <p className = "about-me-normal" style={{'marginTop':'-1em'}}> - Teamwork <br></br> - Critical Thinking <br></br> - Communication <br></br></p>
 
                     <p className = "center">
-                        <button className = "button"><a href="https://drive.google.com/file/d/18_6hz_o-QMgK-rwvGOn8WfvOxxoaNY2n/view?usp=sharing" target = "_blank" className = "button-text">VIEW CV</a></button>
+                        <button className = "button"><a href="https://drive.google.com/file/d/18_6hz_o-QMgK-rwvGOn8WfvOxxoaNY2n/view?usp=sharing" target = "_blank" className = "button-text">VIEW RESUME</a></button>
                         <button className = "button"><a href="#contact" className = "button-text">CONTACT ME</a></button>
                     </p>
 

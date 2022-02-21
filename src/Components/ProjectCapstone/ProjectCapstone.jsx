@@ -22,8 +22,8 @@ const ProjectCapstone = (props) => {
 
         </div>
             
-        <div className="col-7 text-center">
-            <h1><img src = {capstonelarge} alt = "try it out demo" className = "main-picture-size img-fluid center-block" /></h1>
+        <div className="col-7 text-center" style={{'marginTop':'10%'}}>
+            <iframe width="780" height="550" src="https://www.youtube.com/embed/IO9LH1Nl_8E" type="text/html" title="YouTube video player" frameborder="0" allow="fullscreen"></iframe>
             <p className = "name-plate"></p>
         </div>
       </div>
